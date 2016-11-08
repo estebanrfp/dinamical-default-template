@@ -5,4 +5,5 @@
 ### How to preview template edition
 
 gulp build
+
 gulp server
