@@ -1,0 +1,16 @@
+{
+  "name": "dinamical-rcms",
+  "description": "Default template for Realtime Singlepage Web Aplications",
+  "author": "Esteban Fuster Pozzi <estebanrfp@gmail.com>",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.1.0",
+    "gulp-webserver": "^0.9.1",
+    "nib": "^1.1.0"
+  },
+  "dependencies": {
+    "jade": "^1.11.0"
+  }
+}

@@ -1,0 +1,70 @@
+.content-list
+    position absolute
+    top 0
+    // padding-top 48px
+    width 100%
+    height 100%
+    overflow-y scroll
+    -webkit-overflow-scrolling touch
+    .noposts
+        color #9b9b9b
+        padding: 1rem
+// .viewed
+//     opacity .9
+.Item
+    width 320px // 250px
+    min-width 320px // 250px
+    height 240px // 250px
+    margin-top .5rem
+    margin-left .5rem
+    position relative
+    display inline-block
+    color #ddd
+    background-color #242e38
+    &-image
+        width 100%
+        height 100%  
+    &-content
+        background rgba(2, 20, 29, 0.7)
+        position absolute
+        top 0        
+        width 100%
+        height 100%
+        padding 1rem
+        &:hover
+            background rgba(0, 0, 0, 0.8)   
+                    
+    &-title
+        width calc(100% - 60px)           
+        color #81D1F4
+        display inline-block
+        border-radius 0 10px 
+        // font-family 'latosemibold'
+        &:hover
+            color #ddd                
+    &-authorImage
+        height 40px
+        width 40px
+        padding 2px
+        background silver
+        border-radius 50%
+        float right
+        opacity .8
+        &:hover
+            opacity 1
+    &-tags
+        display block
+        color silver
+        &:hover
+            color #BBE4F2 
+        
+.special-tag
+    color #03F419
+    // font-size 28px
+    left 100px
+    position absolute
+
+@media screen and (max-width: 600px)
+    .Item
+        width calc(100% - 1rem)
+        
